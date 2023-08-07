@@ -1,0 +1,49 @@
+1. Them:  
+    :       They're aliens
+            They are six of them
+            Mission: Attack the earth: 
+
+        Weakness(es): 
+            They are too logical
+            They attack one at a time
+            They wait to see the outcome of a battle before deploying another 
+             alien ship.
+
+
+
+2. Me:
+            Captain of the USS Assembly, 
+            strength: I have initiative and get to attack first
+            weakness: no targetting lasers
+            Attack aliens in order
+            Mission: destroy every last alien ship.
+
+3.  After I have destroyed a ship, I have the option to make a hasty retreat.
+
+
+hull should be > 0 // less than 0 means destroyed
+accuracy- should be 0-1 
+
+                        USS Assembly:                     Alien (use math.random)
+
+hull                    20                             B/w 3 and 6
+firepower               5                              B/w 2 and 4
+accuracy               .7                              B/w .6and .8
+
+
+
+1. hull is the same as hitpoints. If hull reaches 0or less, the ship is destroyed
+
+2.firepower is the amount of damage done to the hull of the target with a successful hit
+
+3. accuracy is the chance between 0 and 1 that the ship will hit its target.
+
+
+create a function to generate the aliens
+Create a function to randomize values for their properties
+create a function to iterate over the six ships
+create an object of captain USS ASSEMBLY
+Create an object/class for the Alienships
+create a function to determine when the next alien will be deployed
+create a function to determine when Captain USS attacks
+How do I tie all these together???????
